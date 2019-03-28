@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "name": "Veg Biryani with Raita (Serves 2)",
+      "price": "₹160/-",
+      "isBestSeller": true,
+      "isVeg": true
+    },
+    {
+      "name": "Malai Kofta(4 Pieces) with 2 Chapatis",
+      "price": "₹160/-",
+      "isBestSeller": false,
+      "isVeg": true
+    },
+    {
+      "name": "Kaju Curry with 2 Chapatis (Serves 2)",
+      "price": "₹160/-",
+      "isBestSeller": true,
+      "isVeg": true
+    },
+    {
+      "name": "Palak Paneer with 2 Chapatis (Serves 2)",
+      "price": "₹160/-",
+      "isBestSeller": false,
+      "isVeg": true
+    },
+    {
+      "name": "Dal Makhani with 2 Chapatis (Serves 2)",
+      "price": "₹160/-",
+      "isBestSeller": true,
+      "isVeg": true
+    },
+    {
+      "name": "Shahi Paneer with 2 Chapatis (Serves 2)",
+      "price": "₹160/-",
+      "isBestSeller": true,
+      "isVeg": true
+    },
+    {
+      "name": "Chicken Biryani with Raita (Serves 2)",
+      "price": "₹250/-",
+      "isBestSeller": true,
+      "isVeg": false
+    },
+    {
+      "name": "Mutton Biryani with Raita (Serves 2)",
+      "price": "₹300/-",
+      "isBestSeller": false,
+      "isVeg": false
+    },
+    {
+      "name": "Gilawat Kabab(4 Pieces) with 2 Chapatis",
+      "price": "₹160/-",
+      "isBestSeller": true,
+      "isVeg": false
+    },
+    {
+      "name": "Shami Kabab(4 Pieces) with 2 Chapatis",
+      "price": "₹150/-",
+      "isBestSeller": false,
+      "isVeg": false
+    },
+    {
+      "name": "Butter Chicken Boneless(8  Pieces) with 2 Chapatis",
+      "price": "₹250/-",
+      "isBestSeller": true,
+      "isVeg": false
+    },
+    {
+      "name": "Butter Chicken with Bone(4 Pieces) with 2 Chapatis",
+      "price": "₹200/-",
+      "isBestSeller": false,
+      "isVeg": false
+    },
+    {
+      "name": "Mutton Kashmiri Kofta (8 Pieces) with 2 Chapatis",
+      "price": "₹270/-",
+      "isBestSeller": false,
+      "isVeg": false
+    },
+    {
+      "name": "Chicken Kashmiri Kofta (8 Pieces) with 2 Chapatis",
+      "price": "₹220/-",
+      "isBestSeller": true,
+      "isVeg": false
+    },
+    {
+      "name": "Macher Jhol(Fish) (4 Pieces) with rice",
+      "price": "₹200/-",
+      "isBestSeller": false,
+      "isVeg": false
+    },
+    {
+      "name": "Macher Jhal(Fish in Mustard Sauce) (4 Pieces) with rice",
+      "price": "₹220/-",
+      "isBestSeller": true,
+      "isVeg": false
+    }
+  ]
+}

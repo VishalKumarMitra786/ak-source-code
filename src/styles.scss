@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: akFontStyle;
+  src: url('./assets/fonts/Allura-Regular.ttf');
+}
+
+body {
+  font-family: akFontStyle;
+  font-size: 18px;
+}
