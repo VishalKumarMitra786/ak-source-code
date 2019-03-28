@@ -1,6 +1,26 @@
+mat-card {
+  min-height: 800px;
+}
+
 .menu-header {
   display: flex;
   justify-content: center;
+}
+
+.order-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.order-btn {
+  border-radius: 5px;
+  min-height: 40px;
+  line-height: 36px;
+  background-color: #e91e63;
+  color: #ffffff;
+  min-width: 250px;
+  text-decoration: none;
 }
 
 .menu-icon {

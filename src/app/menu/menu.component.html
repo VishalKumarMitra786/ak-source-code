@@ -17,12 +17,17 @@
       <ng-container *ngIf="!isVegSelected">
         <tr *ngFor="let item of nonVegMenuItems">
           <td><span>{{item.name}}</span></td>
-          <td><span>{{item.price}}</span></td>
+          <td>
+            <!--<button mat-raised-button>add</button>-->
+            <span>{{item.price}}</span>
+          </td>
         </tr>
       </ng-container>
     </table>
   </mat-card-content>
   <mat-card-actions>
-    <!--<button mat-button>Place Order</button>-->
+    <div class="order-container">
+      <a class="order-btn" href="https://wa.me/918758833454/?text=heek" target="_blank">Place Order</a>
+    </div>
   </mat-card-actions>
 </mat-card>
