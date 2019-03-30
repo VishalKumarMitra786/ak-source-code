@@ -58,7 +58,6 @@ export class MenuComponent implements OnInit {
       });
       const strToSend = msg + 'Total ₹' + sum;
       this.messageToSend = encodeURI('https://wa.me/918758833454/?text=' + strToSend);
-      console.log(this.messageToSend);
     }
     //https://wa.me/918758833454/?text=heek
   }

@@ -5,9 +5,11 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-wrap:wrap;
   line-height: 50px;
-  color: #ffffff;
-  font-size: 25px;
-  background-color: #e91e63;
+  // color: #ffffff;
+  // font-size: 25px;
+  background-color: #e2e2e2;
+  font-family: sans-serif;
   min-height: 50px;
 }

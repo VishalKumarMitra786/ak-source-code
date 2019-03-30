@@ -20,6 +20,17 @@ mat-card {
   color: gray;
 }
 
+.contact-us {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact-us p {
+  padding-top: 10px;
+}
+
 .menu-header {
   display: flex;
   justify-content: center;
