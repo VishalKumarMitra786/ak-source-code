@@ -35,9 +35,7 @@
         </tr>
       </ng-container>
     </table>
-  </mat-card-content>
-  <mat-card-actions>
-    <div class="order-container">
+    <div class="order-container" [ngClass]="isVegSelected ? 'mt-170':'mts-50'">
       <a class="order-btn" href="{{messageToSend}}"
          (click)="placeOrder()"
          [target]="messageToSend==='#' ? '_self' : '_blank'">Place Order</a>
@@ -45,6 +43,11 @@
     <div class="contact-us">
       <p>Contact Detail<strong>: +91 8758833454</strong></p>
       <p><em>***Incase of failing in placing order contact us directly</em></p>
+      <p><strong>***Note: Please Order 12 Hours before or 1 Day before </strong></p>
+      <p class="follow-us"><strong>Follow Us On</strong></p>
+      <p><a href="https://www.instagram.com/aroma_kitchens/"><i class="fa fa-instagram" style="font-size:48px;color:#e91e63"></i></a></p>
     </div>
+  </mat-card-content>
+  <mat-card-actions>
   </mat-card-actions>
 </mat-card>
