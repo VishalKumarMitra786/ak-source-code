@@ -53,10 +53,10 @@ export class MenuComponent implements OnInit {
       const arrStr = new Array<string>();
       let msg = '';
       this.selectedItems.forEach(z => {
-        msg = msg + z.name + ' Qty.' + z.counter + ' \ ';
+        msg = msg + z.name + ' Qty. ' + z.counter + ', \ ';
         sum = sum + (z.counter * z.priceVal);
       });
-      const strToSend = msg + 'Total ₹' + sum;
+      const strToSend = 'Order placed for : \ ' + msg + 'Total Amt. ₹' + sum;
       this.messageToSend = encodeURI('https://wa.me/918758833454/?text=' + strToSend);
     }
     //https://wa.me/918758833454/?text=heek
