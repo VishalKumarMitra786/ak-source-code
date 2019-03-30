@@ -3,6 +3,8 @@ export class MenuItem {
   price: string;
   isBestSeller: boolean;
   isVeg: boolean;
+  counter: number = 0;
+  priceVal: number;
 }
 
 export class Menu {

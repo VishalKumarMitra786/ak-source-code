@@ -2,6 +2,24 @@ mat-card {
   min-height: 800px;
 }
 
+.counter {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+.counter label {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.counter label:hover, label:active {
+  font-size: 21px;
+  color: gray;
+}
+
 .menu-header {
   display: flex;
   justify-content: center;
