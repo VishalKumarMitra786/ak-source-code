@@ -56,7 +56,7 @@ export class MenuComponent implements OnInit {
         msg = msg + z.name + ' Qty. ' + z.counter + ', \ ';
         sum = sum + (z.counter * z.priceVal);
       });
-      const strToSend = 'Order placed for : \ ' + msg + 'Total Amt. ₹' + sum;
+      const strToSend = 'Order placed for : \ ' + msg + 'Total Amt. = ₹' + sum;
       this.messageToSend = encodeURI('https://wa.me/918758833454/?text=' + strToSend);
     }
     //https://wa.me/918758833454/?text=heek
